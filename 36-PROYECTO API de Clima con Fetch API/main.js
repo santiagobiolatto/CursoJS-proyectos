@@ -10,7 +10,7 @@ $('#buscaBtn').on('click', (event)=>{
 function validarInputs(){}
 
 function consultarAPI(city, country){
-    const key = "ced8a1b04e4b37650340399c01d0c656";
+    const key = "";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${key}`
     //Que onda aca?
     fetch(url)
