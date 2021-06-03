@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Compiled and minified JavaScript -->
+    <title>Buscar Letras</title>
+</head>
+
+<body>
+    <main class="center-align container main">
+        <h1>Letras de canciones</h1>
+        <div class="row">
+            <div class="col s6 m6 l6 xl6">
+                <form >
+                    <div class="left-align">
+                    <h3>Busqueda</h3>
+                    <p>Buscar por artista y nombre:</p>
+                    <p>*Obligatorio</p>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="artista" type="text">
+                            <label for="artista">*Artista</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="cancion" type="text">
+                            <label for="cancion">*Cancion</label>
+                        </div>
+                    </div>
+                    <button class="waves-effect waves-light btn-large" type="submit" id="buscarBtn">Buscar</button>
+                </form>
+            </div>
+            <div class="col s6 m6 l6 xl6" id="letrasCaciones">
+
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../main.js"></script>
+</body>
+
+</html>

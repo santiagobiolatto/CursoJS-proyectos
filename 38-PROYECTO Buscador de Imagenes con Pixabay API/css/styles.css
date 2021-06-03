@@ -1,0 +1,15 @@
+.card-content{
+    font-size: large;
+}
+
+#buscar{
+    max-width: 300px;
+}
+
+.pagination{
+    margin-bottom: 50px;
+}
+
+.input-field{
+    width: 100%;
+}

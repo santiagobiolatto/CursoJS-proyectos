@@ -6,7 +6,6 @@ $('#buscaBtn').on('click', (event)=>{
     consultarAPI($('#ciudad').val(),$('#pais').val());
 });
 
-//Las validaciones son para los debiles
 function validarInputs(){}
 
 function consultarAPI(city, country){
@@ -18,9 +17,8 @@ function consultarAPI(city, country){
             return response.json();
         })
         .then((data) => {
-            console.log(data);
             if(data.cod === '404'){
-                return M.toast({html: 'F no existe la ciudad'})
+                return M.toast({html:'F no existe la ciudad'})
             }else{
                 mostrarTemp(data.name,data.main.temp);
             }
