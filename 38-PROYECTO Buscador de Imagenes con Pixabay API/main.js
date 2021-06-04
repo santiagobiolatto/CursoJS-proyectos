@@ -3,6 +3,8 @@ let totalPaginas;
 let iterador;
 let paginaActual = 1;
 
+buscarImagenes();
+
 $('#buscar').on('click', (event)=>{
     event.preventDefault();
     buscarImagenes();
@@ -69,10 +71,10 @@ function mostrarImagenes(imagenes){
     imagenes.forEach(imagen => {
         $('#containerImg').append(
             `            
-            <div class="col s12 m6 l4 xl3 center-align">
+            <div class="col s12 m6 l4 xl4 center-align">
                 <div class="card">
                     <div class="card-image">
-                    <img src="${imagen.previewURL}">
+                    <img src="${imagen.previewURL}" height="180px">
                     <span class="card-title">${imagen.user}</span>
                     </div>
                     <div class="card-content left-align">
