@@ -1,0 +1,62 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan NUEVO!",
+      "email": "correo2@correo.com",
+      "telefono": "1223123",
+      "empresa": "12212",
+      "id": 26
+    },
+    {
+      "nombre": "Santiago",
+      "email": "santiagobiolatto96@gmail.com",
+      "telefono": "03533400043",
+      "empresa": "asd",
+      "id": 27
+    },
+    {
+      "nombre": "asdasd",
+      "email": "santiagobiolatto@outlook.com",
+      "telefono": "03533400043",
+      "empresa": "asdasdasd",
+      "id": 28
+    },
+    {
+      "nombre": "asdasd",
+      "email": "santiagobiolatto@outlook.com",
+      "telefono": "03533400043",
+      "empresa": "asdasdasd",
+      "id": 29
+    }
+  ],
+  "otrosClientes": [
+    {
+      "nombre": "Juan NUEVO!",
+      "email": "correo2@correo.com",
+      "telefono": "12",
+      "empresa": "12212",
+      "id": 26
+    },
+    {
+      "nombre": "Santiago",
+      "email": "santiagobiolatto96@gmail.com",
+      "telefono": "03533400043",
+      "empresa": "asd",
+      "id": 27
+    },
+    {
+      "nombre": "asdasd",
+      "email": "santiagobiolatto@outlook.com",
+      "telefono": "03533400043",
+      "empresa": "asdasdasd",
+      "id": 28
+    },
+    {
+      "nombre": "asdasd",
+      "email": "santiagobiolatto@outlook.com",
+      "telefono": "03533400043",
+      "empresa": "asdasdasd",
+      "id": 29
+    }
+  ]
+}
