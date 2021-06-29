@@ -15,12 +15,7 @@ const Formulario = (props) => {
   };
   const calcularPrestamo = (event) => {
     event.preventDefault();
-    if (
-      props.cantidad === 0 ||
-      isNaN(props.cantidad) ||
-      isNaN(props.plazo) ||
-      props.plazo === ""
-    ) {
+    if ( props.cantidad === 0 || isNaN(props.cantidad) || isNaN(props.plazo) || props.plazo === "") {
       setError(true);
       Swal.fire({
         icon: "warning",
@@ -29,15 +24,6 @@ const Formulario = (props) => {
       });
       return;
     }
-    // if(error){
-    //     Swal.fire({
-    //         icon: 'warning',
-    //         title: 'Oops...',
-    //         text: 'Todos los campos son obligatorios'
-    //     });
-    // }else{
-    //     console.log(error);
-    // }
     setError(false);
     props.setTotal(calcularTotal(props.cantidad, props.plazo));
   };
@@ -63,7 +49,7 @@ const Formulario = (props) => {
             min="0"
             className="form-control"
             id="cantPrestamo"
-            required
+            
             onChange={leerCantidad}
           />
         </div>
@@ -75,7 +61,7 @@ const Formulario = (props) => {
             className="form-select mb-3"
             id="plazoSelect"
             onChange={leerPlazo}
-            required
+            
           >
             <option value="" defaultValue>
               Seleccione
